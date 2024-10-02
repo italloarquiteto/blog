@@ -1,0 +1,863 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black; 
+}
+
+.header{
+    position: static;
+    background-color: gray;
+    padding: 100px;
+    background: linear-gradient(black,gray,black);
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.header2{
+    margin-top: -200px;
+    margin-left: 600px;
+    color: white;
+    font-family:"Quintessential", serif;
+    position: static;
+    font-size: 40px;
+}
+
+.menu1{  
+    display: flex; 
+    align-items:center;
+    position: static;
+    background-color: white;
+    position: static;
+    color: black;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 600px;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    font-size: 40px;
+    padding-left: 10px;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.menu1 p {
+    color: white;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    position: static;
+    margin-top: 100px;
+    margin-left: -240px;
+    text-align: left;
+}
+
+.menu1 img {
+    margin-right: 20px;
+    max-width: 30%;
+    height: auto;
+}
+
+.menu1 a {
+
+    flex-grow: 1;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    line-height: 1.2;
+    font-size:  40px; 
+    margin-top: -120px;
+}
+
+
+.menu2{  
+    display: flex; 
+    align-items:center;
+    background-color: white;
+    color: black;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 600px;
+    width: 500px;
+    height: 300px;
+    font-size: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.menu2 img {
+    margin-right: 20px;
+    max-width: 30%;
+    height: auto;
+}
+
+.menu2 a {
+    flex-grow: 1;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    line-height: 1.2;
+    font-size:  40px;
+    margin-top: -150px;
+}
+
+.menu2 p {
+    color: white;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    position: static;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: -180px;
+  
+}
+
+.menu3{  
+    display: flex; 
+    align-items:center;
+    position: static;
+    background-color: white;
+    position: static;
+    color: black;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 600px;
+    width: 500px;
+    height: 300px;
+    text-align:center;
+    font-size: 40px;
+    padding-left: 10px;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.menu3 {  
+    display: flex; 
+
+    background-color: white;
+    color: black;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 600px;
+    width: 500px;
+    height: 300px;
+    font-size: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.menu3 img {
+    margin-right: 20px;
+    max-width: 30%;
+    height: auto;
+}
+
+.menu3 a {
+    text-align: left;
+    position: static;
+    margin-top: -140px;
+    text-decoration: none;
+    font-size: 40px;
+    margin-bottom: 10px;  /* Espaço entre o link e o parágrafo */
+    color: black;
+}
+
+.menu3 p {
+    color: white;
+
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;  /* Remove margens desnecessárias */
+    margin-top: 40px;  /* Ajusta a distância entre o <a> e o <p> */
+    margin-left: -80px;
+    text-align: left;
+    flex-grow: 1; /* Faz com que o parágrafo cresça e se posicione adequadamente */
+}
+
+.menu4{  
+    display: flex; 
+    align-items:center;
+    position: static;
+    background-color: white;
+    position: static;
+    color: black;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 600px;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    font-size: 40px;
+    padding-left: 10px;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.menu4 img {
+    margin-right: 20px;
+    max-width: 30%;
+    height: auto;
+}
+
+.menu4 a {
+    flex-grow: 1;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    line-height: 1.2;
+    font-size:  40px;
+    margin-top: -170px;
+}
+
+.menu4 p {
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    position: static;
+    margin-top:40px;
+    margin-right: 35px;
+    margin-left: -100px;
+}
+
+a, a:visited {
+    color:rgb(13, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(159, 21, 21);
+    color:black;
+    width: max-content;
+}
+
+.data-acesso {
+    position: static;
+    display: block;  
+    color: white;   
+    font-size: 12px;  
+    margin-top: 250px;
+    margin-left: 80px;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.headertema1{
+    padding: 100px;
+    background: linear-gradient(black, gray, black);
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.header-content {
+    display: flex;
+}
+
+.botaovoltar{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-right: 20px; /* Adiciona um espaço entre o botão e o h1 */
+}
+
+    
+
+
+.menu1tema1 {  
+    display: flex; 
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    background-color: gray;
+    width: 1000px;
+    height: 300px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-right: 30px;
+    margin-left: 60px;
+}
+
+.menu1tema1 p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px; /* Pequena margem entre a imagem e o texto */
+}
+
+.menu1tema1 img {
+    max-width: 200px; /* Define o tamanho máximo da imagem */
+    border: 2px solid white; /* Borda branca para a imagem */
+    border-radius: 10px; /* Suave arredondamento nas bordas da imagem */
+    margin-left: 30px;
+}
+
+.menu1tema1-content {
+    display: flex;
+}
+
+
+
+.menu2tema1 {  
+    display: flex; 
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    background-color: gray;
+    width: 1000px;
+    height: 300px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-right: 30px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.menu2tema1 p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px; /* Pequena margem entre a imagem e o texto */
+}
+
+.menu2tema1 img {
+    max-width: 200px; /* Define o tamanho máximo da imagem */
+    border: 2px solid white; /* Borda branca para a imagem */
+    border-radius: 10px; /* Suave arredondamento nas bordas da imagem */
+    margin-left: 30px;
+}
+
+.menu2tema1-content {
+    display: flex;
+}
+
+
+.menu3tema1 {  
+    display: flex; 
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    background-color: gray;
+    width: 1000px;
+    height: 300px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-right: 30px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.menu3tema1 p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px; /* Pequena margem entre a imagem e o texto */
+}
+
+.menu3tema1 img {
+    max-width: 200px; /* Define o tamanho máximo da imagem */
+    border: 2px solid white; /* Borda branca para a imagem */
+    border-radius: 10px; /* Suave arredondamento nas bordas da imagem */
+    margin-left: 30px;
+}
+
+.menu3tema1-content {
+    display: flex;
+}
+
+
+.menu4tema1 {  
+    display: flex; 
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    background-color: gray;
+    width: 1000px;
+    height: 300px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-right: 30px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.menu4tema1 p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px; /* Pequena margem entre a imagem e o texto */
+}
+
+.menu4tema1 img {
+    max-width: 200px; /* Define o tamanho máximo da imagem */
+    border: 2px solid white; /* Borda branca para a imagem */
+    border-radius: 10px; /* Suave arredondamento nas bordas da imagem */
+    margin-left: 30px;
+}
+
+.menu4tema1-content {
+    display: flex;
+}
+
+/*tema2* ////////////////// */
+
+
+.menu1tema2 {  
+    display: flex; 
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    background-color: gray;
+    width: 1000px;
+    height: 300px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-right: 30px;
+    margin-left: 60px;
+}
+
+.menu1tema2 p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px; /* Pequena margem entre a imagem e o texto */
+}
+
+.menu1tema2 img {
+    max-width: 200px; /* Define o tamanho máximo da imagem */
+    border: 2px solid white; /* Borda branca para a imagem */
+    border-radius: 10px; /* Suave arredondamento nas bordas da imagem */
+    margin-left: 30px;
+}
+
+.menu1tema2-content {
+    display: flex;
+}
+
+
+
+.menu2tema2 {  
+    display: flex; 
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    background-color: gray;
+    width: 1000px;
+    height: 300px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-right: 30px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.menu2tema2 p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px; /* Pequena margem entre a imagem e o texto */
+}
+
+.menu2tema2 img {
+    max-width: 200px; /* Define o tamanho máximo da imagem */
+    border: 2px solid white; /* Borda branca para a imagem */
+    border-radius: 10px; /* Suave arredondamento nas bordas da imagem */
+    margin-left: 30px;
+}
+
+.menu2tema2-content {
+    display: flex;
+}
+
+
+.menu3tema2 {  
+    display: flex; 
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    background-color: gray;
+    width: 1000px;
+    height: 300px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-right: 30px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.menu3tema2 p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px; /* Pequena margem entre a imagem e o texto */
+}
+
+.menu3tema2 img {
+    max-width: 200px; /* Define o tamanho máximo da imagem */
+    border: 2px solid white; /* Borda branca para a imagem */
+    border-radius: 10px; /* Suave arredondamento nas bordas da imagem */
+    margin-left: 30px;
+}
+
+.menu3tema2-content {
+    display: flex;
+}
+
+
+.menu4tema2 {  
+    display: flex; 
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    background-color: gray;
+    width: 1000px;
+    height: 300px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-right: 30px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.menu4tema2 p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px; /* Pequena margem entre a imagem e o texto */
+}
+
+.menu4tema2 img {
+    max-width: 200px; /* Define o tamanho máximo da imagem */
+    border: 2px solid white; /* Borda branca para a imagem */
+    border-radius: 10px; /* Suave arredondamento nas bordas da imagem */
+    margin-left: 30px;
+}
+
+.menu4tema2-content {
+    display: flex;
+}
+
+.headertema2{
+    padding: 100px;
+    background: linear-gradient(black, gray, black);
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.header-content {
+    display: flex;
+}
+
+.botaovoltar{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-right: 20px; /* Adiciona um espaço entre o botão e o h1 */
+}
+
+
+
+/*aqui começa tema 3///////////////// */
+
+.menu1tema3 {  
+    display: flex; 
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    background-color: gray;
+    width: 1000px;
+    height: 300px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-right: 30px;
+    margin-left: 60px;
+}
+
+.menu1tema3 p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px; /* Pequena margem entre a imagem e o texto */
+}
+
+.menu1tema3 img {
+    max-width: 200px; /* Define o tamanho máximo da imagem */
+    border: 2px solid white; /* Borda branca para a imagem */
+    border-radius: 10px; /* Suave arredondamento nas bordas da imagem */
+    margin-left: 30px;
+}
+
+.menu1tema3-content {
+    display: flex;
+}
+
+
+
+.menu2tema3 {  
+    display: flex; 
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    background-color: gray;
+    width: 1000px;
+    height: 300px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-right: 30px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.menu2tema3 p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px; /* Pequena margem entre a imagem e o texto */
+}
+
+.menu2tema3 img {
+    max-width: 200px; /* Define o tamanho máximo da imagem */
+    border: 2px solid white; /* Borda branca para a imagem */
+    border-radius: 10px; /* Suave arredondamento nas bordas da imagem */
+    margin-left: 30px;
+}
+
+.menu2tema3-content {
+    display: flex;
+}
+
+
+.menu3tema3 {  
+    display: flex; 
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    background-color: gray;
+    width: 1000px;
+    height: 300px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-right: 30px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.menu3tema3 p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px; /* Pequena margem entre a imagem e o texto */
+}
+
+.menu3tema3 img {
+    max-width: 200px; /* Define o tamanho máximo da imagem */
+    border: 2px solid white; /* Borda branca para a imagem */
+    border-radius: 10px; /* Suave arredondamento nas bordas da imagem */
+    margin-left: 30px;
+}
+
+.menu3tema3-content {
+    display: flex;
+}
+
+
+.menu4tema3 {  
+    display: flex; 
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    background-color: gray;
+    width: 1000px;
+    height: 300px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-right: 30px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.menu4tema3 p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px; /* Pequena margem entre a imagem e o texto */
+}
+
+.menu4tema3 img {
+    max-width: 200px; /* Define o tamanho máximo da imagem */
+    border: 2px solid white; /* Borda branca para a imagem */
+    border-radius: 10px; /* Suave arredondamento nas bordas da imagem */
+    margin-left: 30px;
+}
+
+.menu4tema3-content {
+    display: flex;
+}
+
+.headertema3{
+    padding: 100px;
+    background: linear-gradient(black, gray, black);
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.header-content {
+    display: flex;
+}
+
+.botaovoltar{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-right: 20px; /* Adiciona um espaço entre o botão e o h1 */
+}
+
+/* --------- tema 4---------------------------*/
+
+.menu1tema4 {  
+    display: flex; 
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    background-color: gray;
+    width: 1000px;
+    height: 300px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-right: 30px;
+    margin-left: 60px;
+}
+
+.menu1tema4 p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px; /* Pequena margem entre a imagem e o texto */
+}
+
+.menu1tema4 img {
+    max-width: 200px; /* Define o tamanho máximo da imagem */
+    border: 2px solid white; /* Borda branca para a imagem */
+    border-radius: 10px; /* Suave arredondamento nas bordas da imagem */
+    margin-left: 30px;
+}
+
+.menu1tema4-content {
+    display: flex;
+}
+
+
+
+.menu2tema4 {  
+    display: flex; 
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    background-color: gray;
+    width: 1000px;
+    height: 300px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-right: 30px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.menu2tema4 p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px; /* Pequena margem entre a imagem e o texto */
+}
+
+.menu2tema4 img {
+    max-width: 200px; /* Define o tamanho máximo da imagem */
+    border: 2px solid white; /* Borda branca para a imagem */
+    border-radius: 10px; /* Suave arredondamento nas bordas da imagem */
+    margin-left: 30px;
+}
+
+.menu2tema4-content {
+    display: flex;
+}
+
+
+.menu3tema4 {  
+    display: flex; 
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    background-color: gray;
+    width: 1000px;
+    height: 300px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-right: 30px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.menu3tema4 p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px; /* Pequena margem entre a imagem e o texto */
+}
+
+.menu3tema4 img {
+    max-width: 200px; /* Define o tamanho máximo da imagem */
+    border: 2px solid white; /* Borda branca para a imagem */
+    border-radius: 10px; /* Suave arredondamento nas bordas da imagem */
+    margin-left: 30px;
+}
+
+.menu3tema4-content {
+    display: flex;
+}
+
+
+.menu4tema4 {  
+    display: flex; 
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    background-color: gray;
+    width: 1000px;
+    height: 300px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-right: 30px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.menu4tema4 p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px; /* Pequena margem entre a imagem e o texto */
+}
+
+.menu4tema4 img {
+    max-width: 200px; /* Define o tamanho máximo da imagem */
+    border: 2px solid white; /* Borda branca para a imagem */
+    border-radius: 10px; /* Suave arredondamento nas bordas da imagem */
+    margin-left: 30px;
+}
+
+.menu4tema4-content {
+    display: flex;
+}
+
+.headertema4{
+    padding: 100px;
+    background: linear-gradient(black, gray, black);
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.header-content {
+    display: flex;
+}
+
+.botaovoltar{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-right: 20px; /* Adiciona um espaço entre o botão e o h1 */
+}
+
+
